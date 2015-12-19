@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Customer]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(256) NOT NULL, 
+    [Balance] DECIMAL NOT NULL DEFAULT 0.0
+)
