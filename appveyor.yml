@@ -1,0 +1,5 @@
+before_build:
+  - nuget restore .\DecoratorPattern\DecoratorPattern.sln 
+
+build:
+  project: .\DecoratorPattern\DecoratorPattern.sln
